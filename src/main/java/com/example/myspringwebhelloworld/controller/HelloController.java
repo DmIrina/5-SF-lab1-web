@@ -27,4 +27,9 @@ public class HelloController {
     String getAnnaInfo(){
         return "anna.html";
     }
+
+    @GetMapping("/kate")
+    String getKateInfo(){
+        return "kate.html";
+    }
 }
