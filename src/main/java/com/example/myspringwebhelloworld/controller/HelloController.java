@@ -28,8 +28,8 @@ public class HelloController {
         return "anna.html";
     }
 
-    @GetMapping("/kate")
+    @GetMapping("/kateryna")
     String getKateInfo(){
-        return "kate.html";
+        return "kateryna.html";
     }
 }
