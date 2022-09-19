@@ -23,4 +23,8 @@ public class HelloController {
         return "iryna.html";
     }
 
+    @GetMapping("/anna")
+    String getAnnaInfo(){
+        return "anna.html";
+    }
 }
